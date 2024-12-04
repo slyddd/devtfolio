@@ -1,13 +1,9 @@
-import { GH_USER } from "../../utils/vars.ts";
-import "./styles/navBar.css";
 import { sites } from "./utils/sites.tsx";
+import "./styles/navBar.css";
 
 export function NavBar() {
   return (
     <nav>
-      <div id="logo">
-        <h1>{GH_USER}</h1>
-      </div>
       <div id="end">
         <div id="links">
           {sites.map((site, index) => (
