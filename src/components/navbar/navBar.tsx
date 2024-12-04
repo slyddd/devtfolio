@@ -1,4 +1,3 @@
-import { ChangeTheme } from "../themeSwitch/changeTheme.tsx";
 import { GH_USER } from "../../utils/vars.ts";
 import "./styles/navBar.css";
 import { sites } from "./utils/sites.tsx";
@@ -17,8 +16,6 @@ export function NavBar() {
             </a>
           ))}
         </div>
-        <div id="burger"></div>
-        <ChangeTheme />
       </div>
     </nav>
   );
